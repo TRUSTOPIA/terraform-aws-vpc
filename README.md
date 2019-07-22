@@ -422,6 +422,7 @@ Sometimes it is handy to have public access to Redshift clusters (for example if
 | database\_route\_table\_ids | List of IDs of database route tables |
 | database\_subnet\_arns | List of ARNs of database subnets |
 | database\_subnet\_group | ID of database subnet group |
+| database\_subnet\_group\_name | Name of database subnet group |
 | database\_subnets | List of IDs of database subnets |
 | database\_subnets\_cidr\_blocks | List of cidr_blocks of database subnets |
 | default\_network\_acl\_id | The ID of the default network ACL |
