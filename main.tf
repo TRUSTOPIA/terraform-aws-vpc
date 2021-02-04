@@ -833,7 +833,7 @@ data "aws_vpc_endpoint_service" "s3" {
   service = "s3"
   filter {
     name   = "vpc_id"
-    values = [aws_vpc.this.id]
+    values = [aws_vpc.this[0].id]
   }
 }
 
